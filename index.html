@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditya Udugade | Ethical Hacker</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="matrix-canvas"></canvas>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursor-dot"></div>
+<nav>
+  <div class="nav-logo">ETHICAL<span>_</span>AADI</div>
+  <ul class="nav-links">
+    <li><a href="#about"><b>About</b></a></li>
+    <li><a href="#skills"><b>Skills</b></a></li>
+    <li><a href="#projects"><b>Projects</b></a></li>
+    <li><a href="#contact"><b>Contact</b></a></li>
+  </ul>
+</nav>
+
+<section id="hero" style="max-width:100%;padding:0;min-height:100vh;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding-top:80px;">
+  <div class="hero-badge">ETHICAL HACKER & SECURITY RESEARCHER</div>
+  <h1 class="hero-name">
+    <span class="glitch" data-text="ADITYA">ADITYA</span><br>
+    <span class="glitch" data-text="UDUGADE">UDUGADE</span>
+  </h1>
+  <p class="hero-title"><b>Penetration Tester · <span>Bug Bounty Hunter</span> · CTF Player</b></p>
+  <div class="typing-line"><span id="typed-text"></span></div>
+  <div class="hero-cta">
+    <a href="#projects" class="btn btn-primary">View Projects</a>
+    <a href="#contact" class="btn btn-outline">Contact Me</a>
+  </div>
+  <div class="scroll-indicator">
+    <span>SCROLL</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+<section id="about">
+  <div class="section-header reveal">
+    <span class="section-number">01</span>
+    <h2 class="section-title">About</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="about-grid">
+    <div style="display:flex;justify-content:center;" class="reveal">
+      <div class="about-avatar">
+        <div class="avatar-frame"><img src="portfolio.png" height="350px" width="330px"></div>
+        <div class="avatar-corner tl"></div>
+        <div class="avatar-corner tr"></div>
+        <div class="avatar-corner bl"></div>
+        <div class="avatar-corner br"></div>
+      </div>
+    </div>
+    <div class="about-text reveal">
+      <p>
+        Hello, I'm <span class="highlight">Aditya Udugade</span> — an Ethical Hacker and Cybersecurity professional dedicated to making digital systems safer. I specialize in identifying vulnerabilities before malicious actors can exploit them.
+      </p>
+      <p>
+        My expertise spans <span class="highlight">web application security</span>, <span class="highlight">network penetration testing</span>, and <span class="highlight">social engineering assessments</span>. I operate with a hacker's mindset and a defender's purpose.
+      </p>
+      <p>
+        When I'm not breaking systems (ethically), I'm competing in CTF challenges, contributing to bug bounty programs, and staying ahead of the latest <span class="highlight">CVEs and zero-days</span>.
+      </p>
+      <div class="stats-row">
+        <div class="stat-box">
+          <div class="stat-num">10+</div>
+          <div class="stat-label">CVEs Found</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">15+</div>
+          <div class="stat-label">Pentests</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">10+</div>
+          <div class="stat-label">CTF Wins</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="skills" style="background: linear-gradient(180deg, transparent, rgba(0,255,65,0.02), transparent);">
+  <div class="section-header reveal">
+    <span class="section-number">02</span>
+    <h2 class="section-title">Skills</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="skills-grid">
+     <div class="skill-card reveal">
+      <div class="skill-card-icon">👨🏻‍💻 </div>
+      <div class="skill-card-title">Web Developer</div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>HTML / CSS / JS</span><span>93%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="93"></div></div></div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>PHP</span><span>97%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="97"></div></div></div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>SQl</span><span>95%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="95"></div></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-card-icon">🌐</div>
+      <div class="skill-card-title">Web Security</div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>SQL Injection</span><span>95%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="95"></div></div></div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>XSS / CSRF</span><span>92%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="92"></div></div></div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>OWASP Top 10</span><span>98%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="98"></div></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-card-icon">🔒</div>
+      <div class="skill-card-title">Network Security</div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>Network Scanning</span><span>90%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="90"></div></div></div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>MITM Attacks</span><span>85%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85"></div></div></div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>Firewall Evasion</span><span>80%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80"></div></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-card-icon">🛠️</div>
+      <div class="skill-card-title">Tools & Frameworks</div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>Metasploit</span><span>93%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="93"></div></div></div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>Burp Suite</span><span>97%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="97"></div></div></div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>Nmap / Wireshark</span><span>95%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="95"></div></div></div>
+    </div>
+    
+    
+    <div class="skill-card reveal">
+      <div class="skill-card-icon">💻</div>
+      <div class="skill-card-title">Programming</div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>Python</span><span>90%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="90"></div></div></div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>Bash Scripting</span><span>88%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="88"></div></div></div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>C / C++</span><span>70%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="70"></div></div></div>
+    </div>
+   
+    <div class="skill-card reveal">
+      <div class="skill-card-icon">🤝</div>
+      <div class="skill-card-title">Communication</div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>English</span><span>90%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="93"></div></div></div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>Marathi</span><span>99%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="97"></div></div></div>
+      <div class="skill-bar-wrap"><div class="skill-bar-label"><span>Hindi</span><span>95%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-width="95"></div></div></div>
+    </div>
+  </div>
+  
+</section>
+
+<section id="projects">
+  <div class="section-header reveal">
+    <span class="section-number">03</span>
+    <h2 class="section-title">Projects</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-tag">Web Security</div>
+      <div class="project-title">AutoRecon Framework</div>
+      <div class="project-desc">Automated reconnaissance tool that performs comprehensive target enumeration — subdomains, open ports, service fingerprinting, and vulnerability scanning in a single pipeline.</div>
+      <div class="project-tags">
+        <span class="project-tag-chip">Python</span>
+        <span class="project-tag-chip">Nmap</span>
+        <span class="project-tag-chip">OSINT</span>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-tag">Bug Bounty</div>
+      <div class="project-title">SQLi Hunter</div>
+      <div class="project-desc">Custom SQL injection detection and exploitation toolkit tailored for bug bounty hunting. Supports time-based blind, error-based, and union-based injections with WAF bypass techniques.</div>
+      <div class="project-tags">
+        <span class="project-tag-chip">Python</span>
+        <span class="project-tag-chip">SQLMap</span>
+        <span class="project-tag-chip">Bypass</span>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-tag">Network</div>
+      <div class="project-title">PhishNet</div>
+      <div class="project-desc">Social engineering simulation platform for phishing campaign awareness training. Generates convincing lure pages with real-time credential capture analytics for authorized security audits.</div>
+      <div class="project-tags">
+        <span class="project-tag-chip">Node.js</span>
+        <span class="project-tag-chip">Social Eng.</span>
+        <span class="project-tag-chip">Awareness</span>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-tag">CTF / Research</div>
+      <div class="project-title">CVE Research Lab</div>
+      <div class="project-desc">Personal research environment for reproducing and analyzing publicly disclosed CVEs. Documented write-ups, PoC exploits, and mitigation strategies for over 50+ vulnerabilities.</div>
+      <div class="project-tags">
+        <span class="project-tag-chip">CVE</span>
+        <span class="project-tag-chip">Exploit Dev</span>
+        <span class="project-tag-chip">Write-ups</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <div class="section-header reveal">
+    <span class="section-number">04</span>
+    <h2 class="section-title">Contact</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="contact-wrapper">
+    <div class="contact-info reveal">
+      <p>Open to security consulting, penetration testing engagements, bug bounty collaborations, and speaking opportunities. Let's connect and make the internet a safer place.</p>
+      <div class="contact-links">
+        <a href="mailto:adityaudugade0@gmail.com" class="contact-link"><span class="contact-link-icon">✉</span> adityaudugade0@gmail.com</a>
+        <a href="https://github.com/adiiitya01" class="contact-link"><span class="contact-link-icon">⚡</span> github.com/aditya-udugade</a>
+        <a href="https://linkedin.com/in/aditya-udugade" class="contact-link"><span class="contact-link-icon">🔗</span> linkedin.com/in/aditya-udugade</a>
+        <a href="#" class="contact-link"><span class="contact-link-icon">🐦</span> @aditya_hacks</a>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="terminal-form">
+        <div class="terminal-bar">
+          <div class="t-dot r"></div>
+          <div class="t-dot y"></div>
+          <div class="t-dot g"></div>
+          <span style="margin-left:0.5rem;">send_message.sh</span>
+        </div>
+        <div class="terminal-body">
+          <div class="form-group">
+            <label class="form-label">name</label>
+            <input type="text" class="form-input" placeholder="enter your name">
+          </div>
+          <div class="form-group">
+            <label class="form-label">email</label>
+            <input type="email" class="form-input" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">message</label>
+            <textarea class="form-textarea" placeholder="write your message here..."></textarea>
+          </div>
+          <button class="form-submit" onclick="handleSubmit(this)">send --encrypt</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span><b>© 2025 Aditya Udugade</b></span>
+  <span style="color:rgba(46, 242, 95, 0.15);"> <b>AUTHORIZED ACCESS ONLY</b></span>
+  <span><b>ETHICAL HACKER</b></span>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
